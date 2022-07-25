@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-echo dotnet new console
+sudo dotnet new console
