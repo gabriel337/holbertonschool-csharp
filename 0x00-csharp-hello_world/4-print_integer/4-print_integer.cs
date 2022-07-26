@@ -1,10 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
-class Program
+namespace print_integer
 {
-	static void Main(string[] args)
+	public class Program
 	{
-		int number = 972;
-        Console.Write(number + " Mission Street\n");
+		static void Main(string[] args)
+		{
+			int number = 972;
+			Console.Write(number + " Mission Street\n");
+		}
 	}
 }
