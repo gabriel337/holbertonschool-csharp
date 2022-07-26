@@ -1,0 +1,15 @@
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/bin/Debug/net6.0/10-print_line.cs
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/bin/Debug/net6.0/10-print_line.cs.deps.json
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/bin/Debug/net6.0/10-print_line.cs.runtimeconfig.json
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/bin/Debug/net6.0/10-print_line.cs.dll
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/bin/Debug/net6.0/10-print_line.cs.pdb
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/obj/Debug/net6.0/10-print_line.cs.csproj.AssemblyReference.cache
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/obj/Debug/net6.0/10-print_line.cs.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/obj/Debug/net6.0/10-print_line.cs.AssemblyInfoInputs.cache
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/obj/Debug/net6.0/10-print_line.cs.AssemblyInfo.cs
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/obj/Debug/net6.0/10-print_line.cs.csproj.CoreCompileInputs.cache
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/obj/Debug/net6.0/10-print_line.cs.dll
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/obj/Debug/net6.0/refint/10-print_line.cs.dll
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/obj/Debug/net6.0/10-print_line.cs.pdb
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/obj/Debug/net6.0/10-print_line.cs.genruntimeconfig.cache
+/home/gabriel/C# project/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/10-print_line.cs/obj/Debug/net6.0/ref/10-print_line.cs.dll
