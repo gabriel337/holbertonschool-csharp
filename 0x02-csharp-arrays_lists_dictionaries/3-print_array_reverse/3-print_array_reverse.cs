@@ -10,8 +10,8 @@ class Array
         }
         else
         {
-        int[] reverse = Enumerable.Reverse(array).ToArray();
-        Console.WriteLine(String.Join(',', reverse));
+            int[] reverse = Enumerable.Reverse(array).ToArray();
+            Console.WriteLine(String.Join(',', reverse));
         }
     }        
 }
