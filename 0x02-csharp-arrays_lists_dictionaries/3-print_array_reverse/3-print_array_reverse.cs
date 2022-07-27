@@ -8,10 +8,18 @@ class Array
         {
             Console.WriteLine();
         }
+
         else
         {
-            int[] reverse = Enumerable.Reverse(array).ToArray();
-            Console.WriteLine(String.Join(' ', reverse));
+            for (int i = array.Length - 1; i >= 0; i--)
+            {
+                Console.Write("{0:D}", array[i]);
+                if (i != 0)
+                {
+                    Console.Write(" ");
+                }
+            }
+            Console.WriteLine();
         }
-    }        
+    }
 }
