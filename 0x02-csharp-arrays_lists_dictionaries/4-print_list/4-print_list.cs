@@ -4,26 +4,25 @@ class List
 {
     public static List<int> CreatePrint(int size)
     {
+        List<int> list = new List<int>();
+        
         if (size < 0)
         {
             Console.WriteLine("Size cannot be negative");
+            return (null);
         }
-        List<int> list = new List<int>();
-        int x = 0;
-
-        if (size > 0)
+        
+        for (int x = 0; x < size; x++)
         {
-            for (x = 0; x < size; x++)
+            list.Add(x);
+            Console.Write(list[x]);
+            if (x != size - 1)
             {
-                list.Add(x);
-                Console.Write(list[x]);
-                if (x != size - 1)
-                {
-                    Console.Write(" ");
-                }
+                Console.Write(" ");
             }
         }
-        Console.WriteLine();
-        return list;
+    
+    Console.WriteLine();
+    return list;
     }
-} 
+}
