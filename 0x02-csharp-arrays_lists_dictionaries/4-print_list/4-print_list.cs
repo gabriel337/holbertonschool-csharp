@@ -7,7 +7,6 @@ class List
         if (size < 0)
         {
             Console.WriteLine("Size cannot be negative");
-            return (null);
         }
         List<int> list = new List<int>();
         int x = 0;
