@@ -7,15 +7,23 @@ class Array
         if (size < 0)
         {
             Console.WriteLine("Size cannot be negative");
-            System.Environment.Exit(0);
+            return (null);
         }
-        int[] array = new int[size];
-        int x;
+        int[] array = new int[0];
+        int x = 0;
 
-        for (x = 0; x < size; x++)
+        if (size > 0)
         {
-            array[x] = x;
-            Console.Write(array[x] + " ");
+            array = new int[size];
+            for (x = 0; x < size; x++)
+            {
+                array[x] = x;
+                Console.Write(array[x]);
+                if (array[x] != size - 1)
+                {
+                    Console.Write(" ");
+                }
+            }
         }
         Console.WriteLine();
         return array;
