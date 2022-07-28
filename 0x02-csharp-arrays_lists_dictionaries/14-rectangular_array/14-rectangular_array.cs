@@ -11,6 +11,10 @@ class Program
         {
             for (int j = 0; j < array.GetLength(1); j++) {
                 Console.Write("{0} ", array[i, j]);
+                if(j != array.GetLength(1) - 1)
+                {
+                    Console.Write(" ");
+                }
             }
             Console.WriteLine();
         }
