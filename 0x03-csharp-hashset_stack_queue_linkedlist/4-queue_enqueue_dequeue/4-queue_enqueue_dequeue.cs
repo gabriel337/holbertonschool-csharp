@@ -9,7 +9,7 @@ class MyQueue
         
         if (aQueue.Count > 0)
         {
-            Console.WriteLine($"Top item: {aQueue.Peek()}");
+            Console.WriteLine($"First item: {aQueue.Peek()}");
         }
         else
         {
