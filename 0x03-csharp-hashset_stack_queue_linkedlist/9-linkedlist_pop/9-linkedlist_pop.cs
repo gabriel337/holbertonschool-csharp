@@ -9,13 +9,14 @@ class LList
         {
             return (0);
         }
-        LinkedList<int>.Enumerator num = myLList.GetEnumerator();
-        while (num.MoveNext())
+        
+        LinkedListNode<int> num = myLList.First;
+        
+        if (num == null)
         {
-            int res = num.Current;
-            return res;
-            
+            return (0);
         }
-        return (0);
+        myLList.RemoveFirst();
+        return (num.Value);
     }
 }
