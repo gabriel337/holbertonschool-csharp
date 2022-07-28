@@ -5,19 +5,27 @@ class List
 {
     public static List<int> DifferentElements(List<int> list1, List<int> list2)
     {
-        var differences1 = list1.Except(list2);
-        var differences2 = list2.Except(list1);
-        var new_list = new List<int>(); 
-        foreach (var dif in differences1)
+        var newList = new List<int>();
+
+        foreach (int num in list1)
         {
-            new_list.Add(dif);
+            if (list2.Contains(num))
+            {
+                continue;
+            }
+            newList.Add(num);
         }
 
-        foreach (var dif in differences2)
+        foreach (int num2 in list2)
         {
-            new_list.Add(dif);
+            if (list1.Contains(num2))
+            {
+                continue;
+            }
+            newList.Add(num2);
         }
-        new_list.Sort();
-        return new_list;
+        
+        newList.Sort();
+        return (newList);
     }
 }
