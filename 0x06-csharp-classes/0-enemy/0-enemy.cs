@@ -1,4 +1,6 @@
-﻿namespace Enemies
+﻿using System;
+
+namespace Enemies
 {
 /// <summary>
 /// Empty Class
