@@ -2,9 +2,7 @@
 
 namespace Enemies
 {
-/// <summary>
-/// Empty Class
-/// </summary>
+    /// <summary> Empty Class </summary>
     public class Zombie  
     {  
     }  
