@@ -5,7 +5,7 @@ namespace Enemies
 /// <summary>
 /// Empty Class
 /// </summary>
-   public class Zombie  
+    public class Zombie  
     {  
     }  
 }  
