@@ -1,0 +1,65 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": []
+  },
+  "packageFolders": {
+    "/home/holberton/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x04-csharp-exceptions/0-safe_list_print/0-safe_list_print.csproj",
+      "projectName": "0-safe_list_print",
+      "projectPath": "/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x04-csharp-exceptions/0-safe_list_print/0-safe_list_print.csproj",
+      "packagesPath": "/home/holberton/.nuget/packages/",
+      "outputPath": "/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x04-csharp-exceptions/0-safe_list_print/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/holberton/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
