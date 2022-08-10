@@ -13,3 +13,4 @@
 /mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x06-csharp-classes/1-enemy/obj/Debug/net6.0/1-enemy.pdb
 /mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x06-csharp-classes/1-enemy/obj/Debug/net6.0/1-enemy.genruntimeconfig.cache
 /mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x06-csharp-classes/1-enemy/obj/Debug/net6.0/ref/1-enemy.dll
+/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x06-csharp-classes/1-enemy/bin/Debug/net6.0/1-enemy.xml

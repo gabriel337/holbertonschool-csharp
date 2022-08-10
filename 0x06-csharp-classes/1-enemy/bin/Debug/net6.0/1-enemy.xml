@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>1-enemy</name>
+    </assembly>
+    <members>
+        <member name="T:Enemies.Zombie">
+            <summary>Represents a zombie.</summary>
+        </member>
+        <member name="F:Enemies.Zombie.health">
+            <summary>
+            health attribute
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor">
+            <summary>
+            new instance of Zombie
+            </summary>
+        </member>
+    </members>
+</doc>
