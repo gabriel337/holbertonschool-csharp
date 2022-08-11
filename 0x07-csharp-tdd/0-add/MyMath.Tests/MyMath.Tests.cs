@@ -1,20 +1,27 @@
-namespace MyMath.Tests;
+using NUnit.Framework;
+using MyMath;
 
-public class Tests
+namespace MyMath.Tests
 {
-    [SetUp]
-    public void Setup()
+    [TextFixture]
+    public class Tests
     {
-    }
+        [SetUp]
+        public void Setup()
+        {
+        }
 
-    [Test]
-    public void Test1()
-    {
-        Assert.Pass();
-    }
+        [Test]
+        public void TestSum()
+        {
+            var result = Operations.Add(1, 1);
+            Assert.AreEqual(2, result);
 
-    public void TestSum([Values(2, 2)] int input)
-    {
-        Assert.AreEqual("2", output);
+            result = Operations.Add(-1, -2);
+            Assert.AreEqual(-3, result);
+
+            result = Operations.Add(0, 0);
+            Assert.AreEqual(0, result);
+        }
     }
 }
