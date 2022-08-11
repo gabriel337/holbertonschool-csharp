@@ -1,16 +1,21 @@
 ﻿using System;
 
-namespace MyMath;
-public class Operations
+namespace MyMath
 {
     /// <summary>
-    /// sums two numbers
+    /// Basic math operation
     /// </summary>
-    /// <param name="a"></param>
-    /// <param name="b"></param>
-    /// <returns>sum result</returns>
-    public static int Add(int a, int b)
+    public class Operations
     {
-        return a + b;
+        /// <summary>
+        /// sums two numbers
+        /// </summary>
+        /// <param name="a">negative or positive number</param>
+        /// <param name="b">negative or positive number</param>
+        /// <returns>sum result</returns>
+        public static int Add(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
