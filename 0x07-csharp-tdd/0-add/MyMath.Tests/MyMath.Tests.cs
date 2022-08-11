@@ -3,7 +3,7 @@ using MyMath;
 
 namespace MyMath.Tests
 {
-    [TextFixture]
+    [TestFixture]
     public class Tests
     {
         [SetUp]
