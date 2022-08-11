@@ -22,6 +22,12 @@ namespace MyMath.Tests
 
             result = Operations.Add(0, 0);
             Assert.AreEqual(0, result);
+
+            result = Operations.Add(-3, 2);
+            Assert.AreEqual(-1, result);
+
+             result = Operations.Add(3, -2);
+            Assert.AreEqual(1, result);
         }
     }
 }
