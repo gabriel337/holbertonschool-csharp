@@ -1,0 +1,13 @@
+/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/2-max_int/MyMath/obj/Debug/net6.0/MyMath.csproj.AssemblyReference.cache
+/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/2-max_int/MyMath/obj/Debug/net6.0/MyMath.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/2-max_int/MyMath/obj/Debug/net6.0/MyMath.AssemblyInfoInputs.cache
+/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/2-max_int/MyMath/obj/Debug/net6.0/MyMath.AssemblyInfo.cs
+/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/2-max_int/MyMath/obj/Debug/net6.0/MyMath.csproj.CoreCompileInputs.cache
+/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/2-max_int/MyMath/bin/Debug/net6.0/MyMath.xml
+/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/2-max_int/MyMath/bin/Debug/net6.0/MyMath.deps.json
+/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/2-max_int/MyMath/bin/Debug/net6.0/MyMath.dll
+/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/2-max_int/MyMath/bin/Debug/net6.0/MyMath.pdb
+/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/2-max_int/MyMath/obj/Debug/net6.0/MyMath.dll
+/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/2-max_int/MyMath/obj/Debug/net6.0/refint/MyMath.dll
+/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/2-max_int/MyMath/obj/Debug/net6.0/MyMath.pdb
+/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/2-max_int/MyMath/obj/Debug/net6.0/ref/MyMath.dll

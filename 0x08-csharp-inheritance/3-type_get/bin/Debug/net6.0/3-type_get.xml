@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>3-type_get</name>
+    </assembly>
+    <members>
+        <member name="T:Obj">
+            <summary>
+            Public class Obj
+            </summary>
+        </member>
+        <member name="M:Obj.Print(System.Object)">
+            <summary>
+             prints the names of the available properties and methods of an object
+            </summary>
+            <param name="myObj">object which properties and method are to be printed</param>
+        </member>
+    </members>
+</doc>

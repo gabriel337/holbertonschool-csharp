@@ -885,6 +885,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "MyMath/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MyMath.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyMath.dll": {}
+        }
       }
     }
   },
@@ -3868,11 +3878,17 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "MyMath/1.0.0": {
+      "type": "project",
+      "path": "../MyMath/MyMath.csproj",
+      "msbuildProject": "../MyMath/MyMath.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 17.1.0",
+      "MyMath >= 1.0.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
@@ -3880,7 +3896,7 @@
     ]
   },
   "packageFolders": {
-    "/home/holberton/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3888,11 +3904,11 @@
       "projectUniqueName": "/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath.Tests/MyMath.Tests.csproj",
       "projectName": "MyMath.Tests",
       "projectPath": "/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath.Tests/MyMath.Tests.csproj",
-      "packagesPath": "/home/holberton/.nuget/packages/",
+      "packagesPath": "/root/.nuget/packages/",
       "outputPath": "/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/holberton/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -3903,7 +3919,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/MyMath.csproj": {
+              "projectPath": "/mnt/c/Users/Gabriel/holberton/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/MyMath.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

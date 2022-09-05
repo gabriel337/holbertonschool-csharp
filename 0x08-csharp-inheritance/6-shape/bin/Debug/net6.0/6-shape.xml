@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>6-shape</name>
+    </assembly>
+    <members>
+        <member name="T:Shape">
+            <summary>
+            class with exception
+            </summary>
+        </member>
+        <member name="M:Shape.Area">
+            <summary>
+            Area class without Area implemented
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

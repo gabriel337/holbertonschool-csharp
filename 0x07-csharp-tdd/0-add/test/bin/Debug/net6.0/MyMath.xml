@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyMath</name>
+    </assembly>
+    <members>
+        <member name="T:MyMath.Operations">
+            <summary>
+            Basic math operation
+            </summary>
+        </member>
+        <member name="M:MyMath.Operations.Add(System.Int32,System.Int32)">
+            <summary>
+            sums two numbers
+            </summary>
+            <param name="a">negative or positive number</param>
+            <param name="b">negative or positive number</param>
+            <returns>sum result</returns>
+        </member>
+    </members>
+</doc>
