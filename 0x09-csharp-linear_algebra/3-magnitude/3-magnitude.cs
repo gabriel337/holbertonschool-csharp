@@ -1,33 +1,16 @@
 ﻿using System;
 
-/// <summary>
-/// Public class VectorMath
-/// </summary>
-public class VectorMath
+///<summary>Class for VectorMath</summary>
+class VectorMath
 {
-    /// <summary>
-    /// Public static method for the Magnitude of a 2D or 3D vector
-    /// </summary>
-    /// <param name="vector"> 2D or 3D vector </param>
-    /// <returns> Rounded to the 100th double representing vector magnitude </returns>
+    ///<summary>method that calculates and returns the length of a given vector.</summary>
     public static double Magnitude(double[] vector)
     {
-        double res = 0f;
-
-        if (vector.Length > 3 || vector.Length <= 1)
-        {
-            return (-1);
-        }
-
         if (vector.Length == 2)
-        {
-            res = Math.Sqrt(Math.Pow(Math.Abs(vector[0]), 2) + Math.Pow(Math.Abs(vector[1]), 2));
-        }
+            return Math.Round(Math.Sqrt(Math.Pow(vector[0], 2) + Math.Pow(vector[1], 2)), 2);
         else if (vector.Length == 3)
-        {
-            res = Math.Sqrt(Math.Pow(Math.Abs(vector[0]), 2) + Math.Pow(Math.Abs(vector[1]), 2) + Math.Pow(Math.Abs(vector[2]), 2));
-        }
-
-        return (Math.Round(res), 2);
+            return Math.Round(Math.Sqrt(Math.Pow(vector[0], 2) + Math.Pow(vector[1], 2) + Math.Pow(vector[2], 2)), 2);
+        else
+            return -1;
     }
 }
